@@ -1,0 +1,20 @@
+/*================FONTES ====================*/
+@font-face {
+    font-family:Arial, Helvetica, sans-serif;
+    src: url(../projeto-tesla/fonts/GothamBookRegular.otf);
+}
+@font-face {
+    font-family:Arial, Helvetica, sans-serif;
+    src: url(../projeto-tesla/fonts/GothamMedium.otf);
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+/*============== HEADER ===================*/
+header {
+    display: flex;
+    justify-content: space-between; /*Espaço entre os itens*/
+}
