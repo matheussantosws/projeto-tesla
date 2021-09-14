@@ -91,5 +91,8 @@ main {
 
 main .info {
     width: 45vh;
-    bac
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
