@@ -24,6 +24,11 @@ header {
     justify-content: space-between; /*Espaço entre os itens*/
     align-items: center;
     height: 50px;
+    position:fixed;  /*fixa o cabeçalho e ao botar left top right 0  
+    ele vai ficar flutuando por cima do conteudo main*/
+    left: 0;  
+    top: 0;
+    right: 0;
 }
 
 header ul, header li {
@@ -73,4 +78,18 @@ header .menu--icon{
 header .menu--icon div{
     height: 2px;
     background-color: var(--header-color);
+}
+
+/*=================MAIN==================*/
+
+main {
+    background-image: url(images/bg.jpg);
+    background-size: cover; /*ela vai aumentar ou dimunuir depen. do tamanho da tela - sem distorcer a img*/
+    background-position: center; /*Ela vai ficar alinhada ao meio*/
+    height: 100vh; /*Ela cobre toda a minha tela*/
+}
+
+main .info {
+    width: 45vh;
+    bac
 }
